@@ -1,0 +1,14 @@
+{
+    "name": "itc/app",
+    "description":" ",
+    "keywords":[
+    ],
+    "config":{
+        "bin-dir": "bin"
+    },
+    "autoload":{
+        "psr-0":{
+            "ITC\\App": "src/"
+        }
+    }
+}
