@@ -11,7 +11,7 @@ class Feed
      *
      * @var String
      **/
-    private $url = 'http://tinyurl.com/itcal';
+    private $url = 'http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic';
 
 
 
@@ -34,10 +34,15 @@ class Feed
         try {
             // DOMを取得する
             $this->dom = $this->getDom();
+
+            // DOMを解析して勉強会データを取得する
+            $entries = $this->getEntryData();
         
         } catch (\Exception $e) {
             throw $e;
         }
+
+        return $entries;
     }
 
 
@@ -51,11 +56,26 @@ class Feed
     {
         try {
             $feed = file_get_contents($this->url);
-            var_dump($feed);
-            exit();
-        
+            $dom  = new \DOMDocument('1.0', 'UTF-8');
+            $dom->loadXML($feed);
+
         } catch (\Exception $e) {
             throw $e;
         }
+
+        return $dom;
+    }
+
+
+
+    /**
+     * DOMからentry要素データを取得する
+     *
+     * @return array
+     **/
+    public function getEntryData ()
+    {
+        $entries = $this->dom->getElementsByTagName('entry');
+        return $entries;
     }
 }

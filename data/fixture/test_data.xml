@@ -1,0 +1,289 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/' xmlns:gCal='http://schemas.google.com/gCal/2005' xmlns:gd='http://schemas.google.com/g/2005'>
+    <id>http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic</id>
+    <updated>2014-02-17T01:21:59.000Z</updated>
+    <category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+    <title type='text'>IT 勉強会カレンダー</title>
+    <subtitle type='text'>日本全国で開催される勉強会情報をまとめています。
+        [開催地名] というように [　]で地名をタグ付していますので、開催地名での検索が可能です。
+        同一日程に[☆]マークがあった場合は、同じ会場で開催されている勉強会が存在します。
+
+        勉強会情報の提供に関しては　http://d.hatena.ne.jp/hanazukin/20080603/1212461856　をご覧ください。
+
+        ※ 一か月表示のままでカレンダー内を検索される場合は、↓が便利です。
+        　　http://utf-8.jp/tool/calsearch.html　（はせがわさん作）
+        ※ スマートフォンや携帯電話などで閲覧する場合はマッシュアップサイトやアプリを使用すると便利です
+        　　http://matome.naver.jp/odai/2133851075393345701
+
+        **情報を利用される方へ
+        1.こまめに日程や開催場所などを見ているつもりではありますが、入力後の変更などに対応しきれない場合や、
+        　入力ミスがあるかもしれませんので、変更やミスを発見した場合は、ぜひ、お教えください。
+        　※ 最新の情報に更新されない場合や、更新が停止する場合もあります。
+        2.情報をサイトなどへ取り込んで使用される際への利用に関しても、特に制限をしていませんのでご自由に活用して下さい。
+        　情報を取り込んで表示される場合に、取り込んだ情報は定期的に更新をお願いいたします。
+        　IT勉強会カレンダーの情報は 1. に記載した通り、入力ミスや情報元さんの更新などにより変更される場合が多々あります。
+        　そのため、取り込んだ情報が更新されない場合に、IT勉強会カレンダー側では更新されているのに...ということが発生し、
+        　元情報の勉強会主催者の方に多大な迷惑をおかけしてしまいます。
+        　IT勉強会カレンダーの二次利用についてを必ずお読みください。
+        　http://d.hatena.ne.jp/hanazukin/20090225/1235551485
+        　また、ご使用の際には、一報いただけると幸いです。</subtitle>
+    <link rel='alternate' type='text/html' href='http://www.google.com/calendar/embed?src=fvijvohm91uifvd9hratehf65k%40group.calendar.google.com'/>
+    <link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml' href='http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic'/>
+    <link rel='http://schemas.google.com/g/2005#batch' type='application/atom+xml' href='http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/batch'/><link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic?max-results=25'/>
+    <link rel='next' type='application/atom+xml' href='http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic?start-index=26&amp;max-results=25'/>
+    <author>
+        <name>mincemaker</name>
+        <email>mincemaker@gmail.com</email>
+    </author>
+    <generator version='1.0' uri='http://www.google.com/calendar'>Google Calendar</generator>
+    <openSearch:totalResults>23476</openSearch:totalResults>
+    <openSearch:startIndex>1</openSearch:startIndex>
+    <openSearch:itemsPerPage>25</openSearch:itemsPerPage>
+    <gCal:timezone value='Asia/Tokyo'/>
+    <gCal:timesCleaned value='0'/>
+    <gd:where valueString='日本全国'/>
+
+    <entry>
+        <id>http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/s9c1006fmge9g854tc4b6pnmlo</id>
+        <published>2014-02-13T07:00:55.000Z</published>
+        <updated>2014-02-13T07:00:55.000Z</updated>
+        <category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+        <title type='html'>[東京]Enterprise x HTML5 Conference 2014 - エンタープライズIT向けWeb標準技術のソリューション展</title>
+        <summary type='html'>期間: 2014/02/28 (&amp;#37329;) 10:30～18:00&amp;nbsp;
+            JST&lt;br&gt;
+
+            &lt;br&gt;場所: &amp;#26126;&amp;#26143;&amp;#22823;&amp;#23398; &amp;#26085;&amp;#37326;&amp;#12461;&amp;#12515;&amp;#12531;&amp;#12497;&amp;#12473; 28&amp;#21495;&amp;#39208; 2F
+            &lt;br&gt;予定のステータス: 確定</summary>
+        <content type='html'>期間: 2014/02/28 (金) 10:30～18:00 
+            JST&lt;br /&gt;
+
+            &lt;br /&gt;場所: 明星大学 日野キャンパス 28号館 2F
+            &lt;br /&gt;予定のステータス: 確定
+            &lt;br /&gt;予定の説明: http://conference.html5biz.org/2014spring/</content>
+        <link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=czljMTAwNmZtZ2U5Zzg1NHRjNGI2cG5tbG8gZnZpanZvaG05MXVpZnZkOWhyYXRlaGY2NWtAZw' title='alternate'/>
+        <link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/s9c1006fmge9g854tc4b6pnmlo'/>
+        <author>
+            <name>ripjyr@gmail.com</name>
+            <email>ripjyr@gmail.com</email>
+        </author>
+    </entry>
+
+
+    <entry>
+        <id>http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/qhs0hd6gccg556et472f2bamgc</id><published>2014-02-13T06:59:23.000Z</published><updated>2014-02-13T06:59:23.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/><title type='html'>[北海道/札幌]第1回インフィニットループ公開勉強会「OpenIL vol.1」 - インフィニットループ </title><summary type='html'>期間: 2014/02/21 (&amp;#37329;) 19:00～21:00&amp;nbsp;
+            JST&lt;br&gt;
+
+            &lt;br&gt;場所: &amp;#12452;&amp;#12531;&amp;#12501;&amp;#12451;&amp;#12491;&amp;#12483;&amp;#12488;&amp;#12523;&amp;#12540;&amp;#12503;&amp;#20250;&amp;#35696;&amp;#23460;
+            &lt;br&gt;予定のステータス: 確定</summary><content type='html'>期間: 2014/02/21 (金) 19:00～21:00 
+            JST&lt;br /&gt;
+
+            &lt;br /&gt;場所: インフィニットループ会議室
+            &lt;br /&gt;予定のステータス: 確定
+            &lt;br /&gt;予定の説明: http://infiniteloop.doorkeeper.jp/events/9052</content><link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=cWhzMGhkNmdjY2c1NTZldDQ3MmYyYmFtZ2MgZnZpanZvaG05MXVpZnZkOWhyYXRlaGY2NWtAZw' title='alternate'/><link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/qhs0hd6gccg556et472f2bamgc'/><author><name>ripjyr@gmail.com</name><email>ripjyr@gmail.com</email></author></entry><entry><id>http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/2s6e8aqsmirrjamae3mhd0plrk</id><published>2014-02-13T06:58:31.000Z</published><updated>2014-02-13T06:58:31.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/><title type='html'>[東京]Product Management Boot Camp Tokyo #1 (PDMBC Tokyo #1) - POStudy ～プロダクトオーナーシップ勉強会～ </title><summary type='html'>期間: 2014/04/05 (&amp;#22303;) 09:30～20:00&amp;nbsp;
+            JST&lt;br&gt;
+
+            &lt;br&gt;場所: &amp;#12464;&amp;#12525;&amp;#12540;&amp;#12473;&amp;#12456;&amp;#12463;&amp;#12473;&amp;#12497;&amp;#12540;&amp;#12488;&amp;#12490;&amp;#12540;&amp;#12474;&amp;#26666;&amp;#24335;&amp;#20250;&amp;#31038; 3F &amp;#12475;&amp;#12511;&amp;#12490;&amp;#12540;&amp;#12523;&amp;#12540;&amp;#12512;
+            &lt;br&gt;予定のステータス: 確定</summary><content type='html'>期間: 2014/04/05 (土) 09:30～20:00 
+            JST&lt;br /&gt;
+
+            &lt;br /&gt;場所: グロースエクスパートナーズ株式会社 3F セミナールーム
+            &lt;br /&gt;予定のステータス: 確定
+            &lt;br /&gt;予定の説明: http://postudy.doorkeeper.jp/events/9056</content><link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=MnM2ZThhcXNtaXJyamFtYWUzbWhkMHBscmsgZnZpanZvaG05MXVpZnZkOWhyYXRlaGY2NWtAZw' title='alternate'/><link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/2s6e8aqsmirrjamae3mhd0plrk'/><author><name>ripjyr@gmail.com</name><email>ripjyr@gmail.com</email></author></entry><entry><id>http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/kdn6t5n9qosk8v53dhupd5q9is</id><published>2014-02-13T06:56:41.000Z</published><updated>2014-02-13T06:56:41.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/><title type='html'>[大阪]第２回ドメイン駆動設計読書会@大阪 - ドメイン駆動設計読書会@大阪 </title><summary type='html'>期間: 2014/03/09 (&amp;#26085;) 14:00～17:00&amp;nbsp;
+            JST&lt;br&gt;
+
+            &lt;br&gt;場所: &amp;#22823;&amp;#38442;&amp;#29987;&amp;#26989;&amp;#21109;&amp;#36896;&amp;#39208;&amp;#12289;6F&amp;#20250;&amp;#35696;&amp;#23460;D
+            &lt;br&gt;予定のステータス: 確定</summary><content type='html'>期間: 2014/03/09 (日) 14:00～17:00 
+            JST&lt;br /&gt;
+
+            &lt;br /&gt;場所: 大阪産業創造館、6F会議室D
+            &lt;br /&gt;予定のステータス: 確定
+            &lt;br /&gt;予定の説明: http://dddosaka.doorkeeper.jp/events/8808</content><link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=a2RuNnQ1bjlxb3NrOHY1M2RodXBkNXE5aXMgZnZpanZvaG05MXVpZnZkOWhyYXRlaGY2NWtAZw' title='alternate'/><link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/kdn6t5n9qosk8v53dhupd5q9is'/><author><name>ripjyr@gmail.com</name><email>ripjyr@gmail.com</email></author></entry><entry><id>http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/hjmvvcfleds8k5q653s6m816m8</id><published>2014-02-13T06:54:51.000Z</published><updated>2014-02-13T06:54:51.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/><title type='html'>[大阪]プログラマ35歳定年説勉強会 - DevLOVE関西</title><summary type='html'>期間: 2014/03/29 (&amp;#22303;) 14:00～18:00&amp;nbsp;
+            JST&lt;br&gt;
+
+            &lt;br&gt;場所: &amp;#27005;&amp;#22825;&amp;#26666;&amp;#24335;&amp;#20250;&amp;#31038;: &amp;#22823;&amp;#38442;&amp;#25903;&amp;#31038;
+            &lt;br&gt;予定のステータス: 確定</summary><content type='html'>期間: 2014/03/29 (土) 14:00～18:00 
+            JST&lt;br /&gt;
+
+            &lt;br /&gt;場所: 楽天株式会社: 大阪支社
+            &lt;br /&gt;予定のステータス: 確定
+            &lt;br /&gt;予定の説明: http://devlove-kansai.doorkeeper.jp/events/8764</content><link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=aGptdnZjZmxlZHM4azVxNjUzczZtODE2bTggZnZpanZvaG05MXVpZnZkOWhyYXRlaGY2NWtAZw' title='alternate'/><link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/hjmvvcfleds8k5q653s6m816m8'/><author><name>ripjyr@gmail.com</name><email>ripjyr@gmail.com</email></author></entry><entry><id>http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/eejibb2h44puivn5nvaullb65o</id><published>2014-02-13T06:54:16.000Z</published><updated>2014-02-13T06:54:16.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/><title type='html'>[東京]JPOUG Tech Talk Night #4 - Japan Oracle User Group (JPOUG) </title><summary type='html'>期間: 2014/03/11 (&amp;#28779;) 19:00～21:00&amp;nbsp;
+            JST&lt;br&gt;
+
+            &lt;br&gt;場所: &amp;#26666;&amp;#24335;&amp;#20250;&amp;#31038;&amp;#12452;&amp;#12531;&amp;#12479;&amp;#12540;&amp;#12493;&amp;#12483;&amp;#12488;&amp;#12452;&amp;#12491;&amp;#12471;&amp;#12450;&amp;#12486;&amp;#12451;&amp;#12502; &amp;#22823;&amp;#20250;&amp;#35696;&amp;#23460;1
+            &lt;br&gt;予定のステータス: 確定</summary><content type='html'>期間: 2014/03/11 (火) 19:00～21:00 
+            JST&lt;br /&gt;
+
+            &lt;br /&gt;場所: 株式会社インターネットイニシアティブ 大会議室1
+            &lt;br /&gt;予定のステータス: 確定
+            &lt;br /&gt;予定の説明: http://jpoug.doorkeeper.jp/events/8954</content><link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=ZWVqaWJiMmg0NHB1aXZuNW52YXVsbGI2NW8gZnZpanZvaG05MXVpZnZkOWhyYXRlaGY2NWtAZw' title='alternate'/><link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/eejibb2h44puivn5nvaullb65o'/><author><name>ripjyr@gmail.com</name><email>ripjyr@gmail.com</email></author></entry><entry><id>http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/csea1pr2g58h9kuu4ogqm7pf30</id><published>2014-02-13T06:52:34.000Z</published><updated>2014-02-13T06:52:34.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/><title type='html'>[東京]3/7 OpenID TechNight Vol. 11 - OpenID Connect Launch in Japan - OpenID Foundation Japan </title><summary type='html'>期間: 2014/03/07 (&amp;#37329;) 19:00～21:00&amp;nbsp;
+            JST&lt;br&gt;
+
+            &lt;br&gt;場所: &amp;#12511;&amp;#12463;&amp;#12471;&amp;#12451;
+            &lt;br&gt;予定のステータス: 確定</summary><content type='html'>期間: 2014/03/07 (金) 19:00～21:00 
+            JST&lt;br /&gt;
+
+            &lt;br /&gt;場所: ミクシィ
+            &lt;br /&gt;予定のステータス: 確定
+            &lt;br /&gt;予定の説明: http://openid.doorkeeper.jp/events/9058</content><link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=Y3NlYTFwcjJnNThoOWt1dTRvZ3FtN3BmMzAgZnZpanZvaG05MXVpZnZkOWhyYXRlaGY2NWtAZw' title='alternate'/><link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/csea1pr2g58h9kuu4ogqm7pf30'/><author><name>ripjyr@gmail.com</name><email>ripjyr@gmail.com</email></author></entry><entry><id>http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/enbkhr8ni28646oc8n7kbin5mk</id><published>2014-02-13T06:51:20.000Z</published><updated>2014-02-13T06:51:20.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/><title type='html'>[宮城/仙台]172th Androidea（もくもくCafe） </title><summary type='html'>期間: 2014/02/13 (&amp;#26408;) 19:00～21:00&amp;nbsp;
+            JST&lt;br&gt;
+
+            &lt;br&gt;場所: &amp;#12459;&amp;#12501;&amp;#12455;&amp;#12539;&amp;#12505;&amp;#12525;&amp;#12540;&amp;#12481;&amp;#12455; &amp;#20185;&amp;#21488;&amp;#21335;&amp;#30010;&amp;#36890;&amp;#12426;&amp;#24215;
+            &lt;br&gt;予定のステータス: 確定</summary><content type='html'>期間: 2014/02/13 (木) 19:00～21:00 
+            JST&lt;br /&gt;
+
+            &lt;br /&gt;場所: カフェ・ベローチェ 仙台南町通り店
+            &lt;br /&gt;予定のステータス: 確定
+            &lt;br /&gt;予定の説明: http://connpass.com/event/5208/</content><link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=ZW5ia2hyOG5pMjg2NDZvYzhuN2tiaW41bWsgZnZpanZvaG05MXVpZnZkOWhyYXRlaGY2NWtAZw' title='alternate'/><link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/enbkhr8ni28646oc8n7kbin5mk'/><author><name>ripjyr@gmail.com</name><email>ripjyr@gmail.com</email></author></entry><entry><id>http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/gpitklqprjsiq8id053oj8mld4</id><published>2014-02-13T06:49:35.000Z</published><updated>2014-02-13T06:49:35.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/><title type='html'>[東京]TDDBCミーティング </title><summary type='html'>期間: 2014/02/14 (&amp;#37329;) 19:30～21:30&amp;nbsp;
+            JST&lt;br&gt;
+
+            &lt;br&gt;場所: Stay Gold &amp;#30446;&amp;#40658;&amp;#27177;&amp;#20043;&amp;#21161;&amp;#22338;&amp;#24215;
+            &lt;br&gt;予定のステータス: 確定</summary><content type='html'>期間: 2014/02/14 (金) 19:30～21:30 
+            JST&lt;br /&gt;
+
+            &lt;br /&gt;場所: Stay Gold 目黒権之助坂店
+            &lt;br /&gt;予定のステータス: 確定
+            &lt;br /&gt;予定の説明: http://connpass.com/event/5207/</content><link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=Z3BpdGtscXByanNpcThpZDA1M29qOG1sZDQgZnZpanZvaG05MXVpZnZkOWhyYXRlaGY2NWtAZw' title='alternate'/><link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/gpitklqprjsiq8id053oj8mld4'/><author><name>ripjyr@gmail.com</name><email>ripjyr@gmail.com</email></author></entry><entry><id>http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/mbadpa0cou80kistsm04p4je9k</id><published>2014-02-13T06:49:03.000Z</published><updated>2014-02-13T06:49:03.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/><title type='html'>[東京]ヤフー vs クラスメソッド「iOS 炎の7番勝負」 </title><summary type='html'>期間: 2014/02/25 (&amp;#28779;) 19:00～22:00&amp;nbsp;
+            JST&lt;br&gt;
+
+            &lt;br&gt;場所: &amp;#26481;&amp;#20140;&amp;#12511;&amp;#12483;&amp;#12489;&amp;#12479;&amp;#12454;&amp;#12531; &amp;#12516;&amp;#12501;&amp;#12540;&amp;#26412;&amp;#31038;
+            &lt;br&gt;予定のステータス: 確定</summary><content type='html'>期間: 2014/02/25 (火) 19:00～22:00 
+            JST&lt;br /&gt;
+
+            &lt;br /&gt;場所: 東京ミッドタウン ヤフー本社
+            &lt;br /&gt;予定のステータス: 確定
+            &lt;br /&gt;予定の説明: http://connpass.com/event/5159/</content><link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=bWJhZHBhMGNvdTgwa2lzdHNtMDRwNGplOWsgZnZpanZvaG05MXVpZnZkOWhyYXRlaGY2NWtAZw' title='alternate'/><link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/mbadpa0cou80kistsm04p4je9k'/><author><name>ripjyr@gmail.com</name><email>ripjyr@gmail.com</email></author></entry><entry><id>http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/s0g8nod3mmfck9tjsukob3ium4</id><published>2014-02-13T06:46:27.000Z</published><updated>2014-02-13T06:46:28.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/><title type='html'>[東京]Windows女子部 第26回勉強会 Microsoft澤 円氏のスキルアップセミナー</title><summary type='html'>期間: 2014/02/27 (&amp;#26408;) 19:30～21:30&amp;nbsp;
+            JST&lt;br&gt;
+
+            &lt;br&gt;場所: &amp;#12510;&amp;#12452;&amp;#12463;&amp;#12525;&amp;#12477;&amp;#12501;&amp;#12488; &amp;#12486;&amp;#12463;&amp;#12494;&amp;#12525;&amp;#12472;&amp;#12540; &amp;#12475;&amp;#12531;&amp;#12479;&amp;#12540;&amp;#65288;MTC&amp;#65289;
+            &lt;br&gt;予定のステータス: 確定</summary><content type='html'>期間: 2014/02/27 (木) 19:30～21:30 
+            JST&lt;br /&gt;
+
+            &lt;br /&gt;場所: マイクロソフト テクノロジー センター（MTC）
+            &lt;br /&gt;予定のステータス: 確定
+            &lt;br /&gt;予定の説明: http://kokucheese.com/event/index/149531/</content><link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=czBnOG5vZDNtbWZjazl0anN1a29iM2l1bTQgZnZpanZvaG05MXVpZnZkOWhyYXRlaGY2NWtAZw' title='alternate'/><link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/s0g8nod3mmfck9tjsukob3ium4'/><author><name>ripjyr@gmail.com</name><email>ripjyr@gmail.com</email></author></entry><entry><id>http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/utc7kc1mo02n1u56qpjnjbttoc</id><published>2014-02-13T06:45:50.000Z</published><updated>2014-02-13T06:45:50.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/><title type='html'>[岡山]Golang Cafe #17 </title><summary type='html'>期間: 2014/02/16 (&amp;#26085;) 18:00～20:00&amp;nbsp;
+            JST&lt;br&gt;
+
+            &lt;br&gt;場所: &amp;#20489;&amp;#24335;&amp;#29640;&amp;#29746;&amp;#24215;&amp;#12288;&amp;#38738;&amp;#27743;&amp;#24215;
+            &lt;br&gt;予定のステータス: 確定</summary><content type='html'>期間: 2014/02/16 (日) 18:00～20:00 
+            JST&lt;br /&gt;
+
+            &lt;br /&gt;場所: 倉式珈琲店　青江店
+            &lt;br /&gt;予定のステータス: 確定
+            &lt;br /&gt;予定の説明: http://www.zusaar.com/event/3877003</content><link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=dXRjN2tjMW1vMDJuMXU1NnFwam5qYnR0b2MgZnZpanZvaG05MXVpZnZkOWhyYXRlaGY2NWtAZw' title='alternate'/><link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/utc7kc1mo02n1u56qpjnjbttoc'/><author><name>ripjyr@gmail.com</name><email>ripjyr@gmail.com</email></author></entry><entry><id>http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/a02p9co5fhngagv0u6kqli632c</id><published>2014-02-13T06:43:22.000Z</published><updated>2014-02-13T06:43:38.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/><title type='html'>[東京]CLR/H in Tokyo 第1回 </title><summary type='html'>期間: 2014/02/15 (&amp;#22303;) 11:00～18:00&amp;nbsp;
+            JST&lt;br&gt;
+
+            &lt;br&gt;場所: &amp;#26085;&amp;#26412;&amp;#12510;&amp;#12452;&amp;#12463;&amp;#12525;&amp;#12477;&amp;#12501;&amp;#12488; &amp;#21697;&amp;#24029;&amp;#26412;&amp;#31038;&amp;#65288;SGT&amp;#65289;31F/&amp;#12475;&amp;#12511;&amp;#12490;&amp;#12540;&amp;#12523;&amp;#12540;&amp;#12512;A
+            &lt;br&gt;予定のステータス: 確定</summary><content type='html'>期間: 2014/02/15 (土) 11:00～18:00 
+            JST&lt;br /&gt;
+
+            &lt;br /&gt;場所: 日本マイクロソフト 品川本社（SGT）31F/セミナールームA
+            &lt;br /&gt;予定のステータス: 確定
+            &lt;br /&gt;予定の説明: http://atnd.org/events/47156</content><link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=YTAycDljbzVmaG5nYWd2MHU2a3FsaTYzMmMgZnZpanZvaG05MXVpZnZkOWhyYXRlaGY2NWtAZw' title='alternate'/><link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/a02p9co5fhngagv0u6kqli632c'/><author><name>ripjyr@gmail.com</name><email>ripjyr@gmail.com</email></author></entry><entry><id>http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/7ubs23vjjqvrf00bcfeo8kujc0</id><published>2014-02-13T06:42:13.000Z</published><updated>2014-02-13T06:42:13.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/><title type='html'>[東京]【ヒカ☆ラボ】【初登壇!!】RainbowApps現役講師によるiPhone＆Androidアプリ開発基礎講座!! </title><summary type='html'>期間: 2014/03/27 (&amp;#26408;) 19:30～22:00&amp;nbsp;
+            JST&lt;br&gt;
+
+            &lt;br&gt;場所: &amp;#12524;&amp;#12496;&amp;#12524;&amp;#12472;&amp;#12540;&amp;#12474;&amp;#26412;&amp;#31038; ( &amp;#28171;&amp;#35895;&amp;#12498;&amp;#12459;&amp;#12522;&amp;#12456;17F )
+            &lt;br&gt;予定のステータス: 確定</summary><content type='html'>期間: 2014/03/27 (木) 19:30～22:00 
+            JST&lt;br /&gt;
+
+            &lt;br /&gt;場所: レバレジーズ本社 ( 渋谷ヒカリエ17F )
+            &lt;br /&gt;予定のステータス: 確定
+            &lt;br /&gt;予定の説明: http://www.zusaar.com/event/3867004</content><link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=N3ViczIzdmpqcXZyZjAwYmNmZW84a3VqYzAgZnZpanZvaG05MXVpZnZkOWhyYXRlaGY2NWtAZw' title='alternate'/><link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/7ubs23vjjqvrf00bcfeo8kujc0'/><author><name>ripjyr@gmail.com</name><email>ripjyr@gmail.com</email></author></entry><entry><id>http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/45dd262m0tb25fjq6mr3v9mmsc</id><published>2014-02-13T06:36:18.000Z</published><updated>2014-02-13T06:36:18.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/><title type='html'>[神奈川/鎌倉]ZenHack(禅ハック)〜鎌倉建長寺で禅を学べるハッカソン〜 </title><summary type='html'>期間: 2014/03/15 (&amp;#22303;) 08:30～2014/03/16 (&amp;#26085;) 17:00&amp;nbsp;
+            JST&lt;br&gt;
+
+            &lt;br&gt;場所:  &amp;#37772;&amp;#20489; &amp;#24314;&amp;#38263;&amp;#23546;
+            &lt;br&gt;予定のステータス: 確定</summary><content type='html'>期間: 2014/03/15 (土) 08:30～2014/03/16 (日) 17:00 
+            JST&lt;br /&gt;
+
+            &lt;br /&gt;場所:  鎌倉 建長寺
+            &lt;br /&gt;予定のステータス: 確定
+            &lt;br /&gt;予定の説明: http://zenhack2014.peatix.com/</content><link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=NDVkZDI2Mm0wdGIyNWZqcTZtcjN2OW1tc2MgZnZpanZvaG05MXVpZnZkOWhyYXRlaGY2NWtAZw' title='alternate'/><link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/45dd262m0tb25fjq6mr3v9mmsc'/><author><name>ripjyr@gmail.com</name><email>ripjyr@gmail.com</email></author></entry><entry><id>http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/korng8r1nne8krahqlf6op36r8</id><published>2014-02-13T06:32:48.000Z</published><updated>2014-02-13T06:32:48.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/><title type='html'>[東京]技術ひろば.net 2014年3月 勉強会</title><summary type='html'>期間: 2014/03/15 (&amp;#22303;) 11:00～18:00&amp;nbsp;
+            JST&lt;br&gt;
+
+            &lt;br&gt;場所: &amp;#26085;&amp;#26412;&amp;#12510;&amp;#12452;&amp;#12463;&amp;#12525;&amp;#12477;&amp;#12501;&amp;#12488;&amp;#21697;&amp;#24029;&amp;#26412;&amp;#31038;&amp;#65288;SGT&amp;#65289;31F B-08
+            &lt;br&gt;予定のステータス: 確定</summary><content type='html'>期間: 2014/03/15 (土) 11:00～18:00 
+            JST&lt;br /&gt;
+
+            &lt;br /&gt;場所: 日本マイクロソフト品川本社（SGT）31F B-08
+            &lt;br /&gt;予定のステータス: 確定
+            &lt;br /&gt;予定の説明: http://hiroba-tech.net/tabid/152/Default.aspx</content><link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=a29ybmc4cjFubmU4a3JhaHFsZjZvcDM2cjggZnZpanZvaG05MXVpZnZkOWhyYXRlaGY2NWtAZw' title='alternate'/><link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/korng8r1nne8krahqlf6op36r8'/><author><name>ripjyr@gmail.com</name><email>ripjyr@gmail.com</email></author></entry><entry><id>http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/173kditkl6506j28vfdthm8064</id><published>2014-02-12T14:19:54.000Z</published><updated>2014-02-12T14:19:54.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/><title type='html'>[大阪]OWASP Kansai Local Chapter Meeting 1st - OWASP Kansai</title><summary type='html'>期間: 2014/03/03 (&amp;#26376;) 19:30～21:00&amp;nbsp;
+            JST&lt;br&gt;
+
+            &lt;br&gt;場所: TAM Coworking&amp;#65288;TAM&amp;#12398;&amp;#12467;&amp;#12527;&amp;#12540;&amp;#12461;&amp;#12531;&amp;#12464;&amp;#12473;&amp;#12506;&amp;#12540;&amp;#12473;&amp;#65289;
+            &lt;br&gt;予定のステータス: 確定</summary><content type='html'>期間: 2014/03/03 (月) 19:30～21:00 
+            JST&lt;br /&gt;
+
+            &lt;br /&gt;場所: TAM Coworking（TAMのコワーキングスペース）
+            &lt;br /&gt;予定のステータス: 確定
+            &lt;br /&gt;予定の説明: http://owasp-kansai.doorkeeper.jp/events/9057</content><link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=MTcza2RpdGtsNjUwNmoyOHZmZHRobTgwNjQgZnZpanZvaG05MXVpZnZkOWhyYXRlaGY2NWtAZw' title='alternate'/><link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/173kditkl6506j28vfdthm8064'/><author><name>ripjyr@gmail.com</name><email>ripjyr@gmail.com</email></author></entry><entry><id>http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/sd18fev0t1t2ik7cn8nvnrg918</id><published>2014-02-12T13:06:27.000Z</published><updated>2014-02-12T13:06:27.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/><title type='html'>[大阪]第3回 Linked Open Data ハッカソン関西 in インターナショナルオープンデイ大阪</title><summary type='html'>期間: 2014/02/22 (&amp;#22303;) 11:00～19:00&amp;nbsp;
+            JST&lt;br&gt;
+
+            &lt;br&gt;場所: &amp;#22823;&amp;#38442;&amp;#12452;&amp;#12494;&amp;#12505;&amp;#12540;&amp;#12471;&amp;#12519;&amp;#12531;&amp;#12495;&amp;#12502;
+            &lt;br&gt;予定のステータス: 確定</summary><content type='html'>期間: 2014/02/22 (土) 11:00～19:00 
+            JST&lt;br /&gt;
+
+            &lt;br /&gt;場所: 大阪イノベーションハブ
+            &lt;br /&gt;予定のステータス: 確定
+            &lt;br /&gt;予定の説明: http://www.innovation-osaka.jp/ja/events/3350</content><link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=c2QxOGZldjB0MXQyaWs3Y244bnZucmc5MTggZnZpanZvaG05MXVpZnZkOWhyYXRlaGY2NWtAZw' title='alternate'/><link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/sd18fev0t1t2ik7cn8nvnrg918'/><author><name>ripjyr@gmail.com</name><email>ripjyr@gmail.com</email></author></entry><entry><id>http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/311b2fpqkfnfk2io385s2o5vdg</id><published>2014-02-12T13:05:17.000Z</published><updated>2014-02-12T13:05:17.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/><title type='html'>[大阪]第3回Linked Open Dataハッカソン関西</title><summary type='html'>期間: 2014/02/11 (&amp;#28779;) 11:00～19:30&amp;nbsp;
+            JST&lt;br&gt;
+
+            &lt;br&gt;場所: &amp;#22823;&amp;#38442;&amp;#12452;&amp;#12494;&amp;#12505;&amp;#12540;&amp;#12471;&amp;#12519;&amp;#12531;&amp;#12495;&amp;#12502; 
+            &lt;br&gt;予定のステータス: 確定</summary><content type='html'>期間: 2014/02/11 (火) 11:00～19:30 
+            JST&lt;br /&gt;
+
+            &lt;br /&gt;場所: 大阪イノベーションハブ 
+            &lt;br /&gt;予定のステータス: 確定
+            &lt;br /&gt;予定の説明: http://peatix.com/event/27456</content><link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=MzExYjJmcHFrZm5mazJpbzM4NXMybzV2ZGcgZnZpanZvaG05MXVpZnZkOWhyYXRlaGY2NWtAZw' title='alternate'/><link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/311b2fpqkfnfk2io385s2o5vdg'/><author><name>ripjyr@gmail.com</name><email>ripjyr@gmail.com</email></author></entry><entry><id>http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/jfd7s7kofm6pit3rcb55dqmgtk</id><published>2014-02-12T13:04:29.000Z</published><updated>2014-02-12T13:04:29.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/><title type='html'>[茨城/筑波]第１回　つくばアジャイルmeetup - つくばアジャイルmeetup </title><summary type='html'>期間: 2014/02/20 (&amp;#26408;) 19:30～21:30&amp;nbsp;
+            JST&lt;br&gt;
+
+            &lt;br&gt;場所: &amp;#12388;&amp;#12367;&amp;#12400;&amp;#24066; &amp;#21566;&amp;#22971;&amp;#20132;&amp;#27969;&amp;#12475;&amp;#12531;&amp;#12479;&amp;#12540;
+            &lt;br&gt;予定のステータス: 確定</summary><content type='html'>期間: 2014/02/20 (木) 19:30～21:30 
+            JST&lt;br /&gt;
+
+            &lt;br /&gt;場所: つくば市 吾妻交流センター
+            &lt;br /&gt;予定のステータス: 確定
+            &lt;br /&gt;予定の説明: http://tsukuba-agile.doorkeeper.jp/events/8987</content><link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=amZkN3M3a29mbTZwaXQzcmNiNTVkcW1ndGsgZnZpanZvaG05MXVpZnZkOWhyYXRlaGY2NWtAZw' title='alternate'/><link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/jfd7s7kofm6pit3rcb55dqmgtk'/><author><name>ripjyr@gmail.com</name><email>ripjyr@gmail.com</email></author></entry><entry><id>http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/brrgfoeglf78189srsthl8osas</id><published>2014-02-12T13:03:54.000Z</published><updated>2014-02-12T13:03:54.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/><title type='html'>[島根/松江]Startup Learning series.4 - 島根県庁 </title><summary type='html'>期間: 2014/02/20 (&amp;#26408;) 18:30～20:00&amp;nbsp;
+            JST&lt;br&gt;
+
+            &lt;br&gt;場所: &amp;#26494;&amp;#27743;&amp;#12486;&amp;#12523;&amp;#12469;&amp;#21029;&amp;#39208;2F &amp;#12300;&amp;#26494;&amp;#27743;OSS&amp;#12521;&amp;#12508;&amp;#12301;
+            &lt;br&gt;予定のステータス: 確定</summary><content type='html'>期間: 2014/02/20 (木) 18:30～20:00 
+            JST&lt;br /&gt;
+
+            &lt;br /&gt;場所: 松江テルサ別館2F 「松江OSSラボ」
+            &lt;br /&gt;予定のステータス: 確定
+            &lt;br /&gt;予定の説明: http://shimanepref.doorkeeper.jp/events/9046</content><link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=YnJyZ2ZvZWdsZjc4MTg5c3JzdGhsOG9zYXMgZnZpanZvaG05MXVpZnZkOWhyYXRlaGY2NWtAZw' title='alternate'/><link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/brrgfoeglf78189srsthl8osas'/><author><name>ripjyr@gmail.com</name><email>ripjyr@gmail.com</email></author></entry><entry><id>http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/98jl6vci58jv1f7bksi3072b34</id><published>2014-02-12T13:03:15.000Z</published><updated>2014-02-12T13:03:15.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/><title type='html'>[広島]すごい広島 #40 - すごい広島 </title><summary type='html'>期間: 2014/02/19 (&amp;#27700;) 18:00～21:00&amp;nbsp;
+            JST&lt;br&gt;
+
+            &lt;br&gt;場所: &amp;#24195;&amp;#23798;&amp;#24066;&amp;#12414;&amp;#12385;&amp;#12389;&amp;#12367;&amp;#12426;&amp;#24066;&amp;#27665;&amp;#20132;&amp;#27969;&amp;#12503;&amp;#12521;&amp;#12470; 3F&amp;#12501;&amp;#12522;&amp;#12540;&amp;#12473;&amp;#12506;&amp;#12540;&amp;#12473;
+            &lt;br&gt;予定のステータス: 確定</summary><content type='html'>期間: 2014/02/19 (水) 18:00～21:00 
+            JST&lt;br /&gt;
+
+            &lt;br /&gt;場所: 広島市まちづくり市民交流プラザ 3Fフリースペース
+            &lt;br /&gt;予定のステータス: 確定
+            &lt;br /&gt;予定の説明: http://great-h.doorkeeper.jp/events/9049</content><link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=OThqbDZ2Y2k1OGp2MWY3YmtzaTMwNzJiMzQgZnZpanZvaG05MXVpZnZkOWhyYXRlaGY2NWtAZw' title='alternate'/><link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/98jl6vci58jv1f7bksi3072b34'/><author><name>ripjyr@gmail.com</name><email>ripjyr@gmail.com</email></author></entry><entry><id>http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/1t31e2hodnaq6qiq3lng3p01ho</id><published>2014-02-12T13:02:11.000Z</published><updated>2014-02-12T13:02:11.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/><title type='html'>[広島]LT駆動開発 01 - 発表することで勉強しよう - LT駆動開発 </title><summary type='html'>期間: 2014/03/01 (&amp;#22303;) 14:00～17:00&amp;nbsp;
+            JST&lt;br&gt;
+
+            &lt;br&gt;場所: ShakeHands
+            &lt;br&gt;予定のステータス: 確定</summary><content type='html'>期間: 2014/03/01 (土) 14:00～17:00 
+            JST&lt;br /&gt;
+
+            &lt;br /&gt;場所: ShakeHands
+            &lt;br /&gt;予定のステータス: 確定
+            &lt;br /&gt;予定の説明: http://ltdd.doorkeeper.jp/events/9051</content><link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=MXQzMWUyaG9kbmFxNnFpcTNsbmczcDAxaG8gZnZpanZvaG05MXVpZnZkOWhyYXRlaGY2NWtAZw' title='alternate'/><link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/1t31e2hodnaq6qiq3lng3p01ho'/><author><name>ripjyr@gmail.com</name><email>ripjyr@gmail.com</email></author></entry><entry><id>http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/nk857tkl7cu8g06vrqaiq10hlc</id><published>2014-02-12T13:00:39.000Z</published><updated>2014-02-12T13:00:39.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/><title type='html'>[大阪]Ｒｕｂｙ勉強会（自習会） </title><summary type='html'>期間: 2014/02/16 (&amp;#26085;) 12:00～19:00&amp;nbsp;
+            JST&lt;br&gt;
+
+            &lt;br&gt;場所: Biz Library
+            &lt;br&gt;予定のステータス: 確定</summary><content type='html'>期間: 2014/02/16 (日) 12:00～19:00 
+            JST&lt;br /&gt;
+
+            &lt;br /&gt;場所: Biz Library
+            &lt;br /&gt;予定のステータス: 確定
+            &lt;br /&gt;予定の説明: http://connpass.com/event/5206/</content><link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=bms4NTd0a2w3Y3U4ZzA2dnJxYWlxMTBobGMgZnZpanZvaG05MXVpZnZkOWhyYXRlaGY2NWtAZw' title='alternate'/><link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/nk857tkl7cu8g06vrqaiq10hlc'/><author><name>ripjyr@gmail.com</name><email>ripjyr@gmail.com</email></author></entry><entry><id>http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/rr98e1d506mkg8c6raae4iqaco</id><published>2014-02-12T12:59:27.000Z</published><updated>2014-02-12T12:59:27.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/><title type='html'>[大阪]LibreOfficeの日 in JUSO Coworking </title><summary type='html'>期間: 2014/02/19 (&amp;#27700;) 15:00～21:00&amp;nbsp;
+            JST&lt;br&gt;
+
+            &lt;br&gt;場所: JUSO Coworking
+            &lt;br&gt;予定のステータス: 確定</summary><content type='html'>期間: 2014/02/19 (水) 15:00～21:00 
+            JST&lt;br /&gt;
+
+            &lt;br /&gt;場所: JUSO Coworking
+            &lt;br /&gt;予定のステータス: 確定
+            &lt;br /&gt;予定の説明: http://www.zusaar.com/event/3857003</content><link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=cnI5OGUxZDUwNm1rZzhjNnJhYWU0aXFhY28gZnZpanZvaG05MXVpZnZkOWhyYXRlaGY2NWtAZw' title='alternate'/><link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/fvijvohm91uifvd9hratehf65k%40group.calendar.google.com/public/basic/rr98e1d506mkg8c6raae4iqaco'/><author><name>ripjyr@gmail.com</name><email>ripjyr@gmail.com</email></author></entry></feed>

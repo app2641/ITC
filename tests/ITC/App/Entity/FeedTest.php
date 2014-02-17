@@ -31,4 +31,18 @@ class FeedTest extends \PHPUnit_Framework_TestCase
         $dom = $this->feed->getDom();
         $this->assertEquals('DOMDocument', get_class($dom));
     }
+
+
+
+    /**
+     * @test
+     * @medium
+     * @group feed-parse
+     * @group feed
+     */
+    public function DOMDocumentからentry要素を取得する ()
+    {
+        $entries = $this->feed->parse();
+        $this->assertEquals('DOMNodeList', get_class($entries));
+    }
 }
