@@ -16,13 +16,13 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `seminur`
+-- Table structure for table `seminer`
 --
 
-DROP TABLE IF EXISTS `seminur`;
+DROP TABLE IF EXISTS `seminer`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `seminur` (
+CREATE TABLE `seminer` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `title` varchar(255) DEFAULT NULL,
   `url` varchar(255) DEFAULT NULL,
@@ -50,4 +50,4 @@ CREATE TABLE `seminur` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-02-17 18:55:12
+-- Dump completed on 2014-02-21 18:11:49

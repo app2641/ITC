@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="ITC.App" tests="2" assertions="11" failures="0" errors="0" time="0.046442">
+    <testsuite name="SeminerTest" file="/Users/suguru/Documents/GitProjects/ITC/tests/ITC/App/Entity/SeminerTest.php" tests="2" assertions="11" failures="0" errors="0" time="0.046442">
+      <testcase name="DOMElementを解析してレコードオブジェクトに格納する" class="SeminerTest" file="/Users/suguru/Documents/GitProjects/ITC/tests/ITC/App/Entity/SeminerTest.php" line="43" assertions="9" time="0.030470"/>
+      <testcase name="セミナーデータがDBに登録済みかどうかを確認する" class="SeminerTest" file="/Users/suguru/Documents/GitProjects/ITC/tests/ITC/App/Entity/SeminerTest.php" line="66" assertions="2" time="0.015972"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

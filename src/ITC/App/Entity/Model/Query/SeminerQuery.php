@@ -3,11 +3,19 @@
 
 namespace ITC\App\Entity\Model\Query;
 
+use ITC\App\Utility\Registry;
+
 use ITC\App\Entity\Model\Column\SeminerColumn;
 use ITC\App\Entity\Model\AbstractModel;
 
 class SeminerQuery implements QueryInterface
 {
+
+    /**
+     * @var ITC\App\Utility\Database\Database
+     **/
+    private $db;
+
 
     /**
      * @var SeminerColumn
@@ -17,6 +25,7 @@ class SeminerQuery implements QueryInterface
 
     public function __construct ()
     {
+        $this->db = Registry::get('db');
         $this->column = new SeminerColumn;
     }
 
@@ -82,5 +91,30 @@ class SeminerQuery implements QueryInterface
     public function fetchById ($id)
     {
         
+    }
+
+
+
+    /**
+     * タイトルとURLでレコードを取得する
+     *
+     * @param String $title  セミナータイトル
+     * @param String $url  イベントページURL
+     * @return stdClass
+     **/
+    public function fetchByTitleWithUrl ($title, $url)
+    {
+        try {
+            $sql = 'SELECT * FROM seminer
+                WHERE seminer.title = ?
+                AND seminer.url = ?';
+
+            $result = $this->db->state($sql, array($title, $url))->fetch();
+        
+        } catch (\Exception $e) {
+            throw $e;
+        }
+
+        return $result;
     }
 }
