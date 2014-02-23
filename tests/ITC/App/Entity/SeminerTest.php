@@ -2,6 +2,8 @@
 
 
 use ITC\App\Utility\Test\TestCase;
+
+use ITC\App\Utility\Registry;
 use ITC\App\Entity\Seminer;
 
 class SeminerTest extends TestCase
@@ -75,5 +77,30 @@ class SeminerTest extends TestCase
         $registerd_entry = $this->entries->item(1);
         $result = $this->seminer->ifRecordExists($registerd_entry);
         $this->assertTrue($result);
+    }
+
+
+
+    /**
+     * @test
+     * @group seminer
+     * @group seminer-insert
+     */
+    public function セミナー新規レコードを登録する ()
+    {
+        try {
+            $db = Registry::get('db');
+            $db->beginTransaction();
+
+            $entry = $this->entries->item(1);
+            $this->seminer->parse($entry);
+            $this->seminer->insert($this->seminer->getRecord());
+
+            $db->commit();
+        
+        } catch (\Exception $e) {
+            $db->rollBack();
+            throw $e;
+        }
     }
 }

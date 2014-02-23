@@ -62,8 +62,9 @@ class ParseFeed
 
         // 重複を調べて DB へ新着情報を登録する
         foreach ($entries as $entry) {
-            if($this->seminer->ifRecordExists($entry)) {
-                $this->seminer->save($entry);
+            if(! $this->seminer->ifRecordExists($entry)) {
+                $record = $this->seminer->getRecord();
+                $this->seminer->insert($record);
             }
         }
 

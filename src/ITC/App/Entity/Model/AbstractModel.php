@@ -41,6 +41,43 @@ abstract class AbstractModel
 
 
     /**
+     * 新規レコード挿入
+     *
+     * @param stdClass $params  レコードパラメータ
+     * @return void
+     **/
+    public function insert (\stdClass $params)
+    {
+        $this->query->insert($params);
+    }
+
+
+
+    /**
+     * レコード更新
+     *
+     * @return void
+     **/
+    public function update ()
+    {
+        $this->query->update($this);
+    }
+
+
+
+    /**
+     * レコードの削除
+     *
+     * @return void
+     **/
+    public function delete ()
+    {
+        $this->query->delete($this);
+    }
+
+
+
+    /**
      * カラムを取得する
      *
      * @return array

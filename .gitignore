@@ -1,4 +1,8 @@
 .DS_Store
 
+build/*
+
+data/config/database.ini
+
 vendor/*
 
