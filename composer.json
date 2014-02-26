@@ -10,5 +10,9 @@
         "psr-0":{
             "ITC\\App": "src/"
         }
+    },
+
+    "require": {
+        "aws/aws-sdk-php": "2.*"
     }
 }

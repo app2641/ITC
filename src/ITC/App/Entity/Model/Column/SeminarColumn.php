@@ -3,7 +3,7 @@
 
 namespace ITC\App\Entity\Model\Column;
 
-class SeminerColumn extends AbstractColumn
+class SeminarColumn extends AbstractColumn
 {
 
     /**

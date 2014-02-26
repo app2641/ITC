@@ -16,13 +16,13 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `seminer`
+-- Table structure for table `seminar`
 --
 
-DROP TABLE IF EXISTS `seminer`;
+DROP TABLE IF EXISTS `seminar`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `seminer` (
+CREATE TABLE `seminar` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `title` varchar(255) DEFAULT NULL,
   `url` varchar(255) DEFAULT NULL,
@@ -33,8 +33,8 @@ CREATE TABLE `seminer` (
   `created` datetime DEFAULT NULL,
   `updated` datetime DEFAULT NULL,
   PRIMARY KEY (`id`),
-  KEY `title` (`title`),
-  KEY `url` (`url`),
+  UNIQUE KEY `title` (`title`),
+  UNIQUE KEY `url` (`url`),
   KEY `date` (`date`),
   KEY `published` (`published`),
   KEY `is_active` (`is_active`)
@@ -50,4 +50,4 @@ CREATE TABLE `seminer` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-02-21 18:11:49
+-- Dump completed on 2014-02-24 17:35:45

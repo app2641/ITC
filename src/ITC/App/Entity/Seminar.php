@@ -4,9 +4,9 @@
 namespace ITC\App\Entity;
 
 use ITC\App\Entity\Model\AbstractModel;
-use ITC\App\Entity\Model\Query\SeminerQuery;
+use ITC\App\Entity\Model\Query\SeminarQuery;
 
-class Seminer extends AbstractModel
+class Seminar extends AbstractModel
 {
 
     /**
@@ -17,7 +17,7 @@ class Seminer extends AbstractModel
     public function __construct ()
     {
         parent::__construct();
-        $this->query = new SeminerQuery;
+        $this->query = new SeminarQuery;
     }
 
 
@@ -39,6 +39,16 @@ class Seminer extends AbstractModel
 
         // content要素を分解する
         $this->_parseContentElement();
+
+        // 不要なプロパティを除去する
+        foreach ($this->record as $key => $val) {
+            if (! in_array($key, $this->query->getColumn())) {
+                unset($this->record->{$key});
+            }
+        }
+        unset($this->record->id);
+        unset($this->record->updated);
+        $this->record->published = date('Y-m-d H:i:s', strtotime($this->record->published));
 
         return $this->record;
     }

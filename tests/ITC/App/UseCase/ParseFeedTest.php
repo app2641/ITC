@@ -37,19 +37,19 @@ class ParseFeedTest extends \PHPUnit_Framework_TestCase
             ->will($this->returnValue($entries));
         $this->feed = $feed;
 
-        $seminer = $this->getMock('ITC\App\Entity\Seminer');
-        $seminer->expects($this->any())
+        $seminar = $this->getMock('ITC\App\Entity\Seminar');
+        $seminar->expects($this->any())
             ->method('ifRecordExists')
             ->with($this->equalTo($entries->item(0)))
             ->will($this->returnValue(false));
 
-        $seminer->expects($this->any())
+        $seminar->expects($this->any())
             ->method('getRecord')
             ->will($this->returnValue(new \stdClass));
 
-        $seminer->expects($this->any())
+        $seminar->expects($this->any())
             ->method('insert');
-        $this->seminer = $seminer;
+        $this->seminar = $seminar;
     }
 
 
@@ -61,7 +61,7 @@ class ParseFeedTest extends \PHPUnit_Framework_TestCase
     public function フィードを解析する ()
     {
         $this->usecase->setFeed($this->feed);
-        $this->usecase->setSeminer($this->seminer);
+        $this->usecase->setSeminar($this->seminar);
         $result = $this->usecase->execute();
 
         $this->assertTrue($result);

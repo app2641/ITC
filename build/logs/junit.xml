@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites>
-  <testsuite name="ITC.App" tests="0" assertions="0" failures="0" errors="0" time="0.000000">
-    <testsuite name="SeminerTest" file="/Users/app2641/Documents/GitProject/ITC/tests/ITC/App/Entity/SeminerTest.php" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
-  </testsuite>
-</testsuites>

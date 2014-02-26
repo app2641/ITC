@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataset>
 
-    <!-- SeminerRecord -->
-    <seminer
+    <!-- SeminarRecord -->
+    <seminar
         id="1"
         title="[北海道/札幌]第1回インフィニットループ公開勉強会「OpenIL vol.1」 - インフィニットループ"
         url="http://infiniteloop.doorkeeper.jp/events/9052"
@@ -10,7 +10,7 @@
         venue="インフィニットループ会議室"
         published="2014-02-13 06:58:31"
         is_active="1"
-        created="2009-11-13 18:22:40"
+        created="2014-02-20 18:22:40"
         updated="2012-06-15 09:28:13"
     />
 

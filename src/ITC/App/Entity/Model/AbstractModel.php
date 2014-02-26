@@ -14,7 +14,7 @@ abstract class AbstractModel
      *
      * @var QueryInterface
      **/
-    protected $query;
+    public $query;
 
 
     /**
@@ -48,7 +48,7 @@ abstract class AbstractModel
      **/
     public function insert (\stdClass $params)
     {
-        $this->query->insert($params);
+        $this->record = $this->query->insert($params);
     }
 
 
@@ -60,7 +60,7 @@ abstract class AbstractModel
      **/
     public function update ()
     {
-        $this->query->update($this);
+        $this->record = $this->query->update($this);
     }
 
 
@@ -73,6 +73,7 @@ abstract class AbstractModel
     public function delete ()
     {
         $this->query->delete($this);
+        $this->record = null;
     }
 
 
