@@ -3,8 +3,12 @@
 
 namespace ITC\App\UseCase;
 
+use ITC\App\UseCase\JsonS3Upload;
+
 use ITC\App\Entity\Feed,
     ITC\App\Entity\Seminar;
+
+use ITC\App\Utility\Aws\S3;
 
 class ParseFeed
 {
@@ -24,6 +28,15 @@ class ParseFeed
      * @var Seminar
      **/
     private $seminar;
+
+
+
+    /**
+     * ユースケースクラス
+     *
+     * @var JsonS3Upload
+     **/
+    private $ju;
 
 
 
@@ -50,35 +63,46 @@ class ParseFeed
 
 
     /**
+     * @param JsonS3Upload $ju  ユースケースクラス
+     * @return void
+     **/
+    public function setJsonS3Upload ($ju)
+    {
+        $this->ju = $ju;
+    }
+
+
+
+    /**
      * フィード解析処理の実行
      *
      * @return void
      **/
     public function execute ()
     {
-        // Feed から新着情報を取得する
-        $entries = $this->feed->parse();
+        try {
+            // Feed から新着情報を取得する
+            $entries = $this->feed->parse();
 
 
-        // 重複を調べて DB へ新着情報を登録する
-        foreach ($entries as $entry) {
-            if(! $this->seminar->ifRecordExists($entry)) {
-                $record = $this->seminar->getRecord();
-                $this->seminar->insert($record);
+            // 重複を調べて DB へ新着情報を登録する
+            foreach ($entries as $entry) {
+                if(! $this->seminar->ifRecordExists($entry)) {
+                    $record = $this->seminar->getRecord();
+                    $this->seminar->insert($record);
+                }
             }
-        }
 
 
-        // 一週間の新着情報を JSON 化して S3 へ保存する
-        $one_week  = date('Y-m-d H:i:s', time() - 60 * 60 * 24 * 7);
-        $ju = new JsonS3Upload($one_week);
-        $ju->setSeminar($this->seminar);
-        $result = $ju->execute();
+            // 一週間の新着情報を JSON 化して S3 へ保存する
+            $one_week  = date('Y-m-d H:i:s', time() - 60 * 60 * 24 * 7);
+            $this->ju->setSeminar($this->seminar);
+            $this->ju->setDate($one_week);
+            $this->ju->setS3(new S3());
+            $this->ju->execute();
 
-        $whats_new = $this->seminar->query->getAfterDateSeminars($one_week);
-
-        foreach ($whats_new as $seminar) {
-        
+        } catch (\Exception $e) {
+            throw $e;
         }
 
         return true;

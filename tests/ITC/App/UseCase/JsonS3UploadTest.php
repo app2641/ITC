@@ -26,10 +26,9 @@ class JsonS3UploadTest extends TestCase
 
         $this->seminar = $this->getMock('ITC\App\Entity\Seminar');
         
-        $S3 = $this->getMock('ITC\App\Entity\Aws\S3');
-        $S3->expects($this->once())
+        $S3 = $this->getMock('ITC\App\Utility\Aws\S3');
+        $S3->expects($this->any())
             ->method('upload')
-            ->with('String')
             ->will($this->returnValue(true));
         $this->S3 = $S3;
     }
@@ -42,11 +41,12 @@ class JsonS3UploadTest extends TestCase
      */
     public function 指定日以降のセミナーデータをS3保存する ()
     {
-        $ju = new JsonS3Upload('2014-02-19');
+        $ju = new JsonS3Upload();
+        $ju->setDate('2014-02-19');
         $ju->setSeminar($this->seminar);
         $ju->setS3($this->S3);
-        $result = $ju->execute();
 
+        $result = $ju->execute();
         $this->assertTrue($result);
     }
 }

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="ITC.App" tests="1" assertions="4" failures="0" errors="0" time="0.091308">
+    <testsuite name="ParseFeedTest" file="/Users/suguru/Documents/GitProjects/ITC/tests/ITC/App/UseCase/ParseFeedTest.php" tests="1" assertions="4" failures="0" errors="0" time="0.091308">
+      <testcase name="フィードを解析する" class="ParseFeedTest" file="/Users/suguru/Documents/GitProjects/ITC/tests/ITC/App/UseCase/ParseFeedTest.php" line="85" assertions="4" time="0.091308"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

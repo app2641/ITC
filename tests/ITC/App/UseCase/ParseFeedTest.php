@@ -20,6 +20,20 @@ class ParseFeedTest extends \PHPUnit_Framework_TestCase
 
 
 
+    /**
+     * @var Seminar
+     **/
+    private $seminar;
+
+
+
+    /**
+     * @var JsonS3Upload
+     **/
+    private $ju;
+
+
+
     public function setUp ()
     {
         parent::setUp();
@@ -31,12 +45,15 @@ class ParseFeedTest extends \PHPUnit_Framework_TestCase
         $dom->load($test_data_path);
         $entries = $dom->getElementsByTagName('entry');
 
+
+        // Feedクラスモック
         $feed = $this->getMock('ITC\App\Entity\Feed');
         $feed->expects($this->any())
             ->method('parse')
             ->will($this->returnValue($entries));
         $this->feed = $feed;
 
+        // Seminarクラスモック
         $seminar = $this->getMock('ITC\App\Entity\Seminar');
         $seminar->expects($this->any())
             ->method('ifRecordExists')
@@ -50,6 +67,13 @@ class ParseFeedTest extends \PHPUnit_Framework_TestCase
         $seminar->expects($this->any())
             ->method('insert');
         $this->seminar = $seminar;
+
+        // JsonS3Uploadクラスモック
+        $ju = $this->getMock('ITC\App\UseCase\JsonS3Upload');
+        $ju->expects($this->any())
+            ->method('execute')
+            ->will($this->returnValue(true));
+        $this->ju = $ju;
     }
 
 
@@ -62,8 +86,9 @@ class ParseFeedTest extends \PHPUnit_Framework_TestCase
     {
         $this->usecase->setFeed($this->feed);
         $this->usecase->setSeminar($this->seminar);
-        $result = $this->usecase->execute();
+        $this->usecase->setJsonS3Upload($this->ju);
 
+        $result = $this->usecase->execute();
         $this->assertTrue($result);
     }
 }

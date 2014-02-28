@@ -36,19 +36,6 @@ class JsonS3Upload
 
 
     /**
-     * コンストラクタ
-     *
-     * @param String $date  指定日
-     * @return void
-     **/
-    public function __construct ($date)
-    {
-        $this->setDate($date);
-    }
-
-
-
-    /**
      * 指定日セッター
      *
      * @param String $date  指定日
@@ -101,10 +88,7 @@ class JsonS3Upload
             $json = json_encode($whats_new);
 
             // S3へ保存する
-            var_dump($this->S3);
-            exit();
-            $this->S3->upload($json);
-            
+            $this->S3->upload('resources/json/itc.json', $json);
         
         } catch (\Exception $e) {
             throw $e;
