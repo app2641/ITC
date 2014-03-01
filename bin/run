@@ -1,0 +1,23 @@
+#! /usr/bin/env php
+<?php
+
+require_once dirname(__FILE__).'/bootstrap.php';
+
+use ITC\App\UseCase\ParseFeed;
+use ITC\App\UseCase\JsonS3Upload;
+use ITC\App\Entity\Feed,
+    ITC\App\Entity\Seminar;
+
+
+try {
+    // Googleカレンダーフィードからセミナー情報を取得する
+    $usecase = new ParseFeed;
+    $usecase->setFeed(new Feed);
+    $usecase->setSeminar(new Seminar);
+    $usecase->setJsonS3Upload(new JsonS3Upload);
+    $usecase->execute();
+
+} catch (\Exception $e) {
+    throw $e;
+}
+

@@ -85,7 +85,17 @@ class JsonS3Upload
         try {
             // 指定日以降のセミナー情報を取得してJSON化する
             $whats_new = $this->seminar->query->getAfterDateSeminars($this->date);
-            $json = json_encode($whats_new);
+            $data = array();
+
+            foreach ($whats_new as $seminar) {
+                $data[] = array(
+                    'title' => $seminar->title,
+                    'url' => $seminar->url,
+                    'date' => $seminar->date,
+                    'venue' => $seminar->venue
+                );
+            }
+            $json = json_encode($data);
 
             // S3へ保存する
             $this->S3->upload('resources/json/itc.json', $json);
