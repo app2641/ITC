@@ -94,10 +94,10 @@ class ParseFeed
             }
 
 
-            // 一週間の新着情報を JSON 化して S3 へ保存する
-            $one_week  = date('Y-m-d H:i:s', time() - 60 * 60 * 24 * 7);
+            // 一日分の新着情報を JSON 化して S3 へ保存する
+            $one_day  = date('Y-m-d H:i:s', time() - 60 * 60 * 24);
             $this->ju->setSeminar($this->seminar);
-            $this->ju->setDate($one_week);
+            $this->ju->setDate($one_day);
             $this->ju->setS3(new S3());
             $this->ju->execute();
 
