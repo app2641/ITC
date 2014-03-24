@@ -5,5 +5,7 @@ build/*
 data/config/aws.ini
 data/config/database.ini
 
+build/logs/junit.xml
+
 vendor/*
 
