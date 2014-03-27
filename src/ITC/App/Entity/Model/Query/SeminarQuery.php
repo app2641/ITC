@@ -156,7 +156,7 @@ class SeminarQuery implements QueryInterface
     {
         try {
             $sql = 'SELECT * FROM seminar
-                WHERE seminar.created >= ?';
+                WHERE seminar.created > ?';
 
             $results = $this->db
                 ->state($sql, $date)->fetchAll();
