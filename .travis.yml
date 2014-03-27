@@ -4,15 +4,27 @@ php:
     - 5.5
     - 5.4
 
+env:
+    - DB=mysql
+
 before_script:
-    - php composer.phar install
+    - composer self-update
+    - composer install
+    - mysql -e 'CREATE DATABASE itc_test'
+    - mysql itc_test < data/fixture/itc.schema
+    - cp data/config/database.ini.orig data/config/database.ini
+    - cp data/config/aws.ini.orig data/config/aws.ini
 
 script:
     - phpunit
 
+after_script:
+    - ls -l build/logs/
+    - php bin/coveralls -v
+
 notifications:
     email:
         - app2641@gmail.com
-    on_success: always
+    on_success: never
     on_failure: always
 

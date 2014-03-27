@@ -1,11 +1,13 @@
 .DS_Store
 
-build/*
+bin/*
+!bin/bootstrap.php
+!bin/run
 
 data/config/aws.ini
 data/config/database.ini
 
-build/logs/junit.xml
+build/*
 
 vendor/*
 

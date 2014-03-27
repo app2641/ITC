@@ -1,5 +1,12 @@
 [default]
 user=root
-password=root
+password=
 host=localhost
 database=itc
+
+[test]
+user=root
+password=
+host=localhost
+database=itc_test
+

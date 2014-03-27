@@ -1,3 +1,5 @@
 key=aws_key
 secret=aws_secret_key
 bucket=bucket
+json_path=resource/json/itc.json
+

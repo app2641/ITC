@@ -13,6 +13,10 @@
     },
 
     "require": {
-        "aws/aws-sdk-php": "2.*"
+        "aws/aws-sdk-php": "2.*",
+        "phpunit/dbunit": ">=1.2"
+    },
+    "require-dev": {
+        "satooshi/php-coveralls": "dev-master"
     }
 }

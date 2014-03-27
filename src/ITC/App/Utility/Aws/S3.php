@@ -23,7 +23,16 @@ class S3
      *
      * @var String
      **/
-    public $bucket = 'app2641.com';
+    public $bucket;
+
+
+
+    /**
+     * JSONを保存するパス
+     *
+     * @var String
+     **/
+    public $json_path;
 
 
 
@@ -45,6 +54,10 @@ class S3
     {
         // AWSクライアントの設定
         $ini = parse_ini_file(ROOT_PATH.'/'.$this->aws_ini_path);
+
+        // メンバ変数の設定
+        $this->bucket = $ini['bucket'];
+        $this->json_path = $ini['json_path'];
 
         $this->client = S3Client::factory(
             array(
@@ -96,16 +109,15 @@ class S3
     /**
      * 指定パスにファイルをアップロードする
      *
-     * @param String $path  S3のパス
      * @param String $body  ファイル内容
      * @return void
      **/
-    public function upload ($path, $body)
+    public function upload ($body)
     {
         try {
             $this->client->putObject(array(
                 'Bucket' => $this->bucket,
-                'Key'  => $path,
+                'Key'  => $this->json_path,
                 'Body' => $body
             ));
 
