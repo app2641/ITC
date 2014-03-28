@@ -6,6 +6,7 @@ php:
 
 before_script:
     - composer install
+    - pear install phpunit/DbUnit
 
 script:
     - phpunit
