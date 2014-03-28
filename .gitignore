@@ -1,10 +1,12 @@
 .DS_Store
 
-build/*
+bin/phpunit
+bin/dbunit
 
 data/config/aws.ini
 data/config/database.ini
 
+build/*
 build/logs/junit.xml
 
 vendor/*
