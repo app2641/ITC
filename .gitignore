@@ -1,5 +1,6 @@
 .DS_Store
 
+bin/coveralls
 bin/phpunit
 bin/dbunit
 
