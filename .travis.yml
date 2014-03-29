@@ -11,7 +11,7 @@ before_script:
     - composer self-update
     - composer install
     - mysql itc_test -e 'CREATE TABLE itc_test'
-    - mysql itc_text data/fixture/itc.schema
+    - mysql itc_text < data/fixture/itc.schema
 
 script:
     - phpunit
