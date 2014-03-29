@@ -12,6 +12,8 @@ before_script:
     - composer install
     - mysql -e 'CREATE DATABASE itc_test'
     - mysql itc_test < data/fixture/itc.schema
+    - cp data/config/database.ini.orig data/config/database.ini
+    - cp data/config/aws.ini.orig data/config/aws.ini
 
 script:
     - phpunit

@@ -3,3 +3,10 @@ user=root
 password=root
 host=localhost
 database=itc
+
+[test]
+user=root
+password=root
+host=localhost
+database=itc_test
+
