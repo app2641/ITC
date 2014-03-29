@@ -1,11 +1,11 @@
 [default]
-user=
+user=root
 password=
 host=localhost
 database=itc
 
 [test]
-user=
+user=root
 password=
 host=localhost
 database=itc_test
