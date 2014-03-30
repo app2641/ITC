@@ -19,11 +19,15 @@ script:
     - phpunit --coverage-clover build/logs/clover.xml
 
 after_script:
-    - php bin/coveralls -v -c .coveralls.yml
+    - php bin/coveralls -v
+
+branches:
+    only:
+        - develop
 
 notifications:
     email:
         - app2641@gmail.com
     on_success: always
-    on_failure: never
+    on_failure: always
 
