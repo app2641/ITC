@@ -98,7 +98,7 @@ class JsonS3Upload
             $json = json_encode($data);
 
             // S3へ保存する
-            $this->S3->upload('resources/json/itc.json', $json);
+            $this->S3->upload($json);
         
         } catch (\Exception $e) {
             throw $e;
