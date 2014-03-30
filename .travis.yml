@@ -16,9 +16,10 @@ before_script:
     - cp data/config/aws.ini.orig data/config/aws.ini
 
 script:
-    - phpunit --coverage-clover build/logs/clover.xml
+    - phpunit
 
 after_script:
+    - ls -l build/logs/
     - php bin/coveralls -v
 
 branches:
@@ -28,6 +29,6 @@ branches:
 notifications:
     email:
         - app2641@gmail.com
-    on_success: always
+    on_success: never
     on_failure: always
 
