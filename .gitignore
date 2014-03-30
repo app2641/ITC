@@ -1,14 +1,13 @@
 .DS_Store
 
-bin/coveralls
-bin/phpunit
-bin/dbunit
+bin/*
+!bin/bootstrap.php
+!bin/run
 
 data/config/aws.ini
 data/config/database.ini
 
 build/*
-build/logs/junit.xml
 
 vendor/*
 
