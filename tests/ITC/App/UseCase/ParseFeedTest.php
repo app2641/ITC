@@ -57,7 +57,6 @@ class ParseFeedTest extends \PHPUnit_Framework_TestCase
         $seminar = $this->getMock('ITC\App\Entity\Seminar');
         $seminar->expects($this->any())
             ->method('ifRecordExists')
-            ->with($this->equalTo($entries->item(0)))
             ->will($this->returnValue(false));
 
         $seminar->expects($this->any())
