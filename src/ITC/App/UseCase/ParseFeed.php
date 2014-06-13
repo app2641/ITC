@@ -6,7 +6,7 @@ namespace ITC\App\UseCase;
 use ITC\App\UseCase\JsonS3Upload;
 
 use ITC\App\Entity\Feed,
-    ITC\App\Entity\Seminar;
+    ITC\App\Entity\Entry;
 
 use ITC\App\Utility\Aws\S3;
 
@@ -21,22 +21,20 @@ class ParseFeed
     private $feed;
 
 
-
-    /**
-     * セミナークラス
-     *
-     * @var Seminar
-     **/
-    private $seminar;
-
-
-
     /**
      * ユースケースクラス
      *
      * @var JsonS3Upload
      **/
     private $ju;
+
+
+    /**
+     * 開始日
+     *
+     * @var string
+     **/
+    private $begin_data;
 
 
 
@@ -52,12 +50,12 @@ class ParseFeed
 
 
     /**
-     * @param Seminar $seminar  セミナークラス
+     * @param Entry $entry 
      * @return void
      **/
-    public function setSeminar ($seminar)
+    public function setEntry ($entry)
     {
-        $this->seminar = $seminar;
+        $this->entry = $entry;
     }
 
 
@@ -69,6 +67,16 @@ class ParseFeed
     public function setJsonS3Upload ($ju)
     {
         $this->ju = $ju;
+    }
+
+
+    /**
+     * @param  string $date
+     * @return void
+     **/
+    public function setBeginDate ($date)
+    {
+        $this->begin_date = $date;
     }
 
 
@@ -84,20 +92,25 @@ class ParseFeed
             // Feed から新着情報を取得する
             $entries = $this->feed->parse();
 
-
-            // 重複を調べて DB へ新着情報を登録する
+            // 新しく登録されたセミナーを取得する
+            $entry_data = array();
             foreach ($entries as $entry) {
-                if(! $this->seminar->ifRecordExists($entry)) {
-                    $record = $this->seminar->getRecord();
-                    $this->seminar->insert($record);
+                $this->entry->setData($entry);
+                $published = $this->entry->getPublishedDate();
+
+                if ($published >= $this->begin_date) {
+                    $entry_data[] = array(
+                        'title' => $this->entry->getTitle(),
+                        'url'   => $this->entry->getUrl(),
+                        'date' => $this->entry->getSchedule(),
+                        'venue' => $this->entry->getVenue()
+                    );
                 }
             }
 
 
-            // 一日分の新着情報を JSON 化して S3 へ保存する
-            $one_day  = date('Y-m-d H:i:s', time() - 60 * 60 * 24);
-            $this->ju->setSeminar($this->seminar);
-            $this->ju->setDate($one_day);
+            // 新着情報を JSON 化して S3 へ保存する
+            $this->ju->setData($entry_data);
             $this->ju->setS3(new S3());
             $this->ju->execute();
 

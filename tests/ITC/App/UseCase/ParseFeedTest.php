@@ -2,6 +2,7 @@
 
 
 use ITC\App\UseCase\ParseFeed;
+use ITC\App\Entity\Entry;
 
 class ParseFeedTest extends \PHPUnit_Framework_TestCase
 {
@@ -12,19 +13,16 @@ class ParseFeedTest extends \PHPUnit_Framework_TestCase
     private $usecase;
 
 
-
     /**
      * @var Feed
      **/
     private $feed;
 
 
-
     /**
-     * @var Seminar
+     * @var Entry
      **/
-    private $seminar;
-
+    private $entry;
 
 
     /**
@@ -53,19 +51,6 @@ class ParseFeedTest extends \PHPUnit_Framework_TestCase
             ->will($this->returnValue($entries));
         $this->feed = $feed;
 
-        // Seminarクラスモック
-        $seminar = $this->getMock('ITC\App\Entity\Seminar');
-        $seminar->expects($this->any())
-            ->method('ifRecordExists')
-            ->will($this->returnValue(false));
-
-        $seminar->expects($this->any())
-            ->method('getRecord')
-            ->will($this->returnValue(new \stdClass));
-
-        $seminar->expects($this->any())
-            ->method('insert');
-        $this->seminar = $seminar;
 
         // JsonS3Uploadクラスモック
         $ju = $this->getMock('ITC\App\UseCase\JsonS3Upload');
@@ -84,8 +69,9 @@ class ParseFeedTest extends \PHPUnit_Framework_TestCase
     public function フィードを解析する ()
     {
         $this->usecase->setFeed($this->feed);
-        $this->usecase->setSeminar($this->seminar);
+        $this->usecase->setEntry(new Entry());
         $this->usecase->setJsonS3Upload($this->ju);
+        $this->usecase->setBeginDate('2014-02-12 22:03:00');
 
         $result = $this->usecase->execute();
         $this->assertTrue($result);

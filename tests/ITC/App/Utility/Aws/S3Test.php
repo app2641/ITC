@@ -1,11 +1,9 @@
 <?php
 
 
-use ITC\App\Utility\Test\TestCase;
-
 use ITC\App\Utility\Aws\S3;
 
-class S3Test extends TestCase
+class S3Test extends PHPUnit_Framework_TestCase
 {
 
     /**

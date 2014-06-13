@@ -6,15 +6,18 @@ require_once dirname(__FILE__).'/bootstrap.php';
 use ITC\App\UseCase\ParseFeed;
 use ITC\App\UseCase\JsonS3Upload;
 use ITC\App\Entity\Feed,
-    ITC\App\Entity\Seminar;
+    ITC\App\Entity\Entry;
 
 
 try {
+    $yesterday = date('Y-m-d H:i:s', time() - (60 * 60 * 24));
+
     // Googleカレンダーフィードからセミナー情報を取得する
     $usecase = new ParseFeed;
     $usecase->setFeed(new Feed);
-    $usecase->setSeminar(new Seminar);
+    $usecase->setEntry(new Entry);
     $usecase->setJsonS3Upload(new JsonS3Upload);
+    $usecase->setBeginDate($yesterday);
     $usecase->execute();
 
 } catch (\Exception $e) {

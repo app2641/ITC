@@ -1,18 +1,10 @@
 <?php
 
 
-use ITC\App\Utility\Test\TestCase;
-
 use ITC\App\UseCase\JsonS3Upload;
 
-class JsonS3UploadTest extends TestCase
+class JsonS3UploadTest extends PHPUnit_Framework_TestCase
 {
-
-    /**
-     * @var Seminar
-     **/
-    private $seminar;
-
 
     /**
      * @var S3
@@ -24,8 +16,6 @@ class JsonS3UploadTest extends TestCase
     {
         parent::setUp();
 
-        $this->seminar = $this->getMock('ITC\App\Entity\Seminar');
-        
         $S3 = $this->getMock('ITC\App\Utility\Aws\S3');
         $S3->expects($this->any())
             ->method('upload')
@@ -41,9 +31,16 @@ class JsonS3UploadTest extends TestCase
      */
     public function 指定日以降のセミナーデータをS3保存する ()
     {
+        $data = array(array(
+            'title' => 'foo',
+            'url' => 'https://google.com',
+            'date' => '2014-04-04',
+            'venue' => 'bar'
+        ));
+
+
         $ju = new JsonS3Upload();
-        $ju->setDate('2014-02-19');
-        $ju->setSeminar($this->seminar);
+        $ju->setData($data);
         $ju->setS3($this->S3);
 
         $result = $ju->execute();
